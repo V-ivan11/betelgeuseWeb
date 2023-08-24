@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/betelgeuse.svg">
-    <title>Betelgeuse</title>
+    <title>Betelgeuse IPN</title>
     <meta name="description" content="Ingeniería de Cohetes y Nanosatélites Tripoli Rocketry Association L1 L2 L3">
     <meta name="keywords" content="Betelgeuse, betelguese, cohete, rocket, team, ipn, esime, escom, upitta">
     <link href="output.css" rel="stylesheet">
@@ -14,21 +14,17 @@
 <body class="bg-secondary text-primary font-fontlogo overflow-x-hidden">
 
     <header>
-        <div class="absolute md:fixed right-0 h-20 z-40 grid bg-primary text-secondary w-screen grid-cols-10 md:px-24">
+        <div
+            class="absolute md:fixed right-0 h-20 z-40 bg-primary text-secondary w-screen flex justify-between px-2 lg:px-24">
             <div class="flex flex-row col-span-2">
                 <div class="flex flex-col justify-center">
-                    <img src="images/betelgeuse.svg" class="w-12 h-12 md:w-16 md:h-16">
+                    <img src="images/betelgeuse.svg" class="w-12 md:w-14 aspect-square">
                 </div>
                 <div class="self-center pl-4">
                     <h1 class="text-lg font-bold md:text-xl">Betelgeuse</h1>
                 </div>
             </div>
-            <div class="grid col-span-3 justify-items-center">
-                <div class="self-center">
-
-                </div>
-            </div>
-            <div class="grid invisible grid-cols-5 col-span-5 lg:visible justify-items-center font-bold">
+            <div class="grid invisible grid-cols-5 order-last lg:visible justify-items-center font-bold w-1/2 xl:w-1/3">
                 <div class="self-center hover:scale-110">
                     <a href="#misiones">Misiones</a>
                 </div>
@@ -59,6 +55,9 @@
                         </h1>
                         <h2 class="text-2xl md:text-4xl font-bold text-center">Tripoli Rocketry Association L1 L2 L3
                         </h2>
+                        <div class=" mt-10 px-6 py-1 rounded-full hidden md:flex bg-white">
+                            <img src="images/esuelas.png" class="xl:h-24 md:h-16">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,77 +65,56 @@
 
         <section>
             <!--Timeline-->
-            <div class="h-auto w-screen bg-primary text-secondary">
+            <div class="h-auto w-screen bg-quaternary text-secondary">
                 <h1 class="text-4xl md:text-6xl font-bold text-center pt-10">Misiones </h1>
                 <div class="relative mt-10">
 
                     <div class="container bg-gray-200 mx-auto w-full h-full">
                         <div class="relative wrap overflow-hidden p-10 h-full">
-                            <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
+                            <div class="border-2-2 absolute border-opacity-20 border-secondary h-full border"
                                 style="left: 50%"></div>
                             <!-- right timeline -->
                             <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                                <div class="order-1 w-5/12"></div>
-                                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+                                <div class="order-1 w-5/12 justify-center flex">
+                                    <img src="images/trabajando.png" class="w-2/3">
+                                </div>
+                                <div class="z-20 flex items-center order-1 bg-tertiary shadow-xl w-8 h-8 rounded-full">
                                     <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
                                 </div>
-                                <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                    <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
-                                    <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem
-                                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                        has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book.</p>
+                                <div class="order-1 w-5/12 px-5 py-4 hover:scale-105">
+                                    <h5 class="text-tertiary">Octubre 2023</h5>
+                                    <h3 class="mb-2 font-bold text-gray-800 text-4xl">Certificación Tripoli</h3>
+                                    <div class="flex mb-3 flex-row text-lg text-quaternary space-x-4">
+                                        <div class="bg-secondary opacity-80 rounded-full px-4 py-1">L1</div>
+                                        <div class="bg-secondary opacity-90 rounded-full px-4 py-1">L2</div>
+                                    </div>
+                                    <p
+                                        class="text-lg font-light leading-snug tracking-wide text-secondary text-opacity-100">
+                                        Los
+                                        integrantes del club se certificarán con la
+                                        asociación Trípoli México en Laguna Salada, Mexicali.</p>
                                 </div>
                             </div>
 
                             <!-- left timeline -->
-                            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                                <div class="order-1 w-5/12"></div>
-                                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                                    <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+                            <div class="mb-8 flex flex-row-reverse justify-between items-center w-full left-timeline">
+                                <div class="order-1 w-5/12 justify-center flex-row-reverse">
+                                    <img src="images/cheryjr.png" class="h-2/3">
                                 </div>
-                                <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                    <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-                                    <p
-                                        class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book.</p>
-                                </div>
-                            </div>
 
-                            <!-- right timeline -->
-                            <div class="mb-8 flex justify-between items-center w-full right-timeline">
-                                <div class="order-1 w-5/12"></div>
-                                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                                    <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                                <div class="z-20 flex items-center order-1 bg-tertiary shadow-xl w-8 h-8 rounded-full">
+                                    <h1 class="mx-auto font-semibold text-lg text-white">2</h1>
                                 </div>
-                                <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                    <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
-                                    <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem
-                                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                        has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book.</p>
-                                </div>
-                            </div>
-
-                            <!-- left timeline -->
-                            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-                                <div class="order-1 w-5/12"></div>
-                                <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-                                    <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
-                                </div>
-                                <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                    <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
+                                <div class="order-1 w-5/12 px-5 py-4 flex flex-col text-end hover:scale-105">
+                                    <h5 class="text-tertiary text-end">Diciembre 2023</h5>
+                                    <h3 class="mb-2 font-bold text-gray-800 text-4xl">EMNICE</h3>
+                                    <div class="flex mb-3 flex-row-reverse text-lg text-quaternary space-x-4">
+                                        <div class="bg-secondary opacity-80 rounded-full px-4 py-1">2000m</div>
+                                    </div>
                                     <p
-                                        class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                        unknown printer took a galley of type and scrambled it to make a type specimen
-                                        book.</p>
+                                        class="text-lg font-light leading-snug tracking-wide text-secondary text-opacity-100">
+                                        Se competirá dentro del Encuentro Mexicano de Cohetería Experimental en la
+                                        categoría de 2,000m en Acapulco Guerrero.</p>
                                 </div>
                             </div>
                         </div>

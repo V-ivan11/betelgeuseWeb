@@ -10,7 +10,7 @@ module.exports = {
         'primary': '#FFF',
         'secondary': '#18213E',
         'tertiary': '#F15025',
-        'quaternary': '#CA660C',
+        'quaternary': '#EFF3F4',
         'quinary': '#1E535F'
       },
       backgroundImage:{
