@@ -7,11 +7,14 @@ module.exports = {
         'fontlogo': ['fontlogo', 'sans-serif'],
       },
       colors:{
-        'primary': '#0F172B',
-        'secondary': '#EDF2F4',
+        'primary': '#FFF',
+        'secondary': '#18213E',
         'tertiary': '#F15025',
-        'quaternary': '#1A936F',
-        'quinary': '#FCBF449'
+        'quaternary': '#CA660C',
+        'quinary': '#1E535F'
+      },
+      backgroundImage:{
+        'main': "url('images/chery.png')",
       }
     },
   },
