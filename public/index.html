@@ -8,10 +8,13 @@
     <title>Betelgeuse IPN</title>
     <meta name="description" content="Ingeniería de Cohetes y Nanosatélites Tripoli Rocketry Association L1 L2 L3">
     <meta name="keywords" content="Betelgeuse, betelguese, cohete, rocket, team, ipn, esime, escom, upitta">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+    <link rel="stylesheet"
+        href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
     <link href="output.css" rel="stylesheet">
 </head>
 
-<body class="bg-secondary text-primary font-fontlogo overflow-x-hidden">
+<body class="bg-secondary text-primary font-fontlogo overflow-x-hidden h-full w-full">
 
     <header>
         <div
@@ -24,15 +27,12 @@
                     <h1 class="text-lg font-bold md:text-xl">Betelgeuse</h1>
                 </div>
             </div>
-            <div class="grid invisible grid-cols-5 order-last lg:visible justify-items-center font-bold w-1/2 xl:w-1/3">
+            <div class="grid invisible grid-cols-4 order-last lg:visible justify-items-center font-bold w-1/2 xl:w-1/3">
                 <div class="self-center hover:scale-110">
                     <a href="#misiones">Misiones</a>
                 </div>
                 <div class="self-center hover:scale-110">
                     <a href="#nosotros">Nosotros</a>
-                </div>
-                <div class="self-center hover:scale-110">
-                    <a href="#contacto">Contacto</a>
                 </div>
                 <div class="self-center hover:scale-110">
                     <div class="bg-tertiary hover:scale-105 rounded-full px-3 py-1 ml-10">
@@ -48,8 +48,8 @@
     <main>
         <section>
             <!--Home-->
-            <div class="bg-main bg-cover bg-center bg-no-repeat h-screen w-screen relative">
-                <div class="absolute top-0 left-0 w-screen h-screen flex flex-col justify-center items-center">
+            <div class="bg-main bg-cover bg-center bg-no-repeat h-screen max-h-[72rem] w-screen relative">
+                <div class="absolute top-0 left-0 w-screen h-full flex flex-col justify-center items-center">
                     <div class="flex flex-col justify-center items-center space-y-10 text-primary font-mono">
                         <h1 class="text-4xl md:text-6xl font-bold text-center">Ingeniería de Cohetes y Nanosatélites
                         </h1>
@@ -63,7 +63,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="misiones">
             <!--Timeline-->
             <div class="h-auto w-screen bg-quaternary text-secondary">
                 <h1 class="text-4xl md:text-6xl font-bold text-center pt-10">Misiones </h1>
@@ -71,14 +71,16 @@
 
                     <div class="container bg-gray-200 mx-auto w-full h-full">
                         <div class="relative wrap overflow-hidden p-10 h-full">
-                            <div class="border-2-2 absolute border-opacity-20 md:right-1/2 border-secondary h-full border"
-                                ></div>
+                            <div
+                                class="border-2-2 absolute border-opacity-20 md:right-1/2 border-secondary h-full border">
+                            </div>
                             <!-- right timeline -->
                             <div class="mb-8 flex justify-between items-center w-full right-timeline">
                                 <div class="order-1 w-5/12 justify-center md:flex hidden">
                                     <img src="images/trabajando.png" class="w-2/3">
                                 </div>
-                                <div class="z-20 px-3 flex self-start mt-4 md:self-center items-center order-1 bg-tertiary shadow-xl w-8 h-8 rounded-r-lg md:rounded-full">
+                                <div
+                                    class="z-20 px-3 flex self-start mt-4 md:self-center items-center order-1 bg-tertiary shadow-xl w-8 h-8 rounded-r-lg md:rounded-full">
                                     <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
                                 </div>
                                 <div class="order-1 md:w-5/12 px-5 py-4 hover:scale-105">
@@ -95,14 +97,15 @@
                                         asociación Trípoli México en Laguna Salada, Mexicali.</p>
                                 </div>
                             </div>
-
                             <!-- left timeline -->
-                            <div class="mb-8 flex md:flex-row-reverse justify-between items-center w-full left-timeline">
+                            <div
+                                class="mb-8 flex md:flex-row-reverse justify-between items-center w-full left-timeline">
                                 <div class="order-1 w-5/12 justify-center flex-row md:flex hidden">
                                     <img src="images/cheryjr.png" class="h-2/3">
                                 </div>
 
-                                <div class="z-20 flex items-center self-start md:self-center mt-4 px-3 order-1 bg-tertiary shadow-xl w-8 h-8 rounded-r-lg md:rounded-full">
+                                <div
+                                    class="z-20 flex items-center self-start md:self-center mt-4 px-3 order-1 bg-tertiary shadow-xl w-8 h-8 rounded-r-lg md:rounded-full">
                                     <h1 class="mx-auto font-semibold text-lg text-white">2</h1>
                                 </div>
                                 <div class="order-1 md:w-5/12 px-5 py-4 flex flex-col md:text-end hover:scale-105">
@@ -117,16 +120,155 @@
                                         categoría de 2,000m en Acapulco Guerrero.</p>
                                 </div>
                             </div>
+                            <!-- right timeline -->
+                            <div class="mb-8 flex justify-between items-center w-full right-timeline">
+                                <div class="order-1 w-5/12 justify-center md:flex hidden">
+                                    <img src="images/flyer.png" class="w-2/3">
+                                </div>
+                                <div
+                                    class="z-20 px-3 flex self-start mt-4 md:self-center items-center order-1 bg-tertiary shadow-xl w-8 h-8 rounded-r-lg md:rounded-full">
+                                    <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+                                </div>
+                                <div class="order-1 md:w-5/12 px-5 py-4 hover:scale-105">
+                                    <h5 class="text-tertiary">Junio 2024</h5>
+                                    <h3 class="mb-2 font-bold text-gray-800 text-4xl">Space America Cup 2024</h3>
+                                    <div class="flex mb-3 flex-row text-lg text-quaternary space-x-4">
+                                        <div class="bg-secondary opacity-90 rounded-full px-4 py-1">30,000ft</div>
+                                    </div>
+                                    <p
+                                        class="text-lg font-light leading-snug tracking-wide text-secondary text-opacity-100">
+                                        Se competirá en el encuentro más grande a nivel mundial de cohetería
+                                        experimental, en las Cruces Nuevo México en la categoría de 30,000ft.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
         </section>
-        <section></section>
+
+        <section id="nosotros">
+            <!--About Us-->
+            <div class="">
+                <div class="h-screen max-h-[72rem] w-screen bg-primary flex">
+                    <div class="lg:w-1/2">
+                        <div
+                            class="flex h-full flex-col justify-center items-center p-10 space-y-10 text-secondary font-mono">
+                            <h1 class="text-4xl md:text-6xl font-bold text-center">¿Quiénes somos?</h1>
+                            <div class="h-full w-full flex justify-center items-center space-y-10 font-mono">
+                                <p class="text-lg md:text-3xl font-light text-justify px-5 lg:px-12 self-center">
+                                    Somos un club de cohetería conformado de estudiantes de diversas instituciones del
+                                    país
+                                    con el objetivo de desarrollar cohetes de alta potencia y vincular a los integrantes
+                                    del
+                                    equipo con el sector aeroespacial internacional.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <!--Help Us-->
+            <div class="h-1/3 w-screen bg-tertiary">
+                a
+            </div>
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="relative bg-secondary pt-8 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap text-left lg:text-left">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl fonat-semibold">Síguenos en redes sociales</h4>
+                    <h5 class="text-lg mt-0 mb-2 text-slate-400">
+                        Si estás interesado en apoyarnos, no dudes en contactarnos.
+                    </h5>
+                    <div class="mt-6 lg:mb-0 mb-6">
+                        <a href="https://www.instagram.com/betel.geuse.ipn/" target="_blank">
+                            <button
+                                class="bg-white text-secondary shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                                type="button">
+                                <i class="fab fa-instagram"></i>
+                            </button>
+                        </a>
+                        <a href="https://www.facebook.com/betel.geuse.ipn" target="_blank">
+                            <button
+                                class="bg-white text-secondary shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                                type="button">
+                                <i class="fab fa-facebook-square"></i>
+                            </button>
+                        </a>
+                        <a href="https://www.tiktok.com/@betel.geuse.ipn" target="_blank">
+                            <button
+                                class="bg-white text-secondary  shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                                type="button">
+                                <i class="fab fa-tiktok"></i>
+                            </button>
+                        </a>
+                        <a href="https://www.youtube.com/@betelgeuseipn" target="_blank">
+                            <button
+                                class="bg-white text-secondary shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                                type="button">
+                                <i class="fab fa-youtube"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-sm font-semibold mb-2">Betelgeuse IPN</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-slate-400 hover:text-white font-semibold block pb-2 text-sm"
+                                        href="#misiones">Misiones</a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-400 hover:text-white font-semibold block pb-2 text-sm"
+                                        href="#nosotros">Nosotros</a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-400 hover:text-white font-semibold block pb-2 text-sm"
+                                        href="">Apóyanos</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-sm font-semibold mb-2">Sitios de interés</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-slate-400 hover:text-white font-semibold block pb-2 text-sm"
+                                        href="https://www.ipn.mx/" target="_blank">Página oficial IPN</a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-400 hover:text-white font-semibold block pb-2 text-sm"
+                                        href="https://www.tripolimexico.org/" target="_blank">Tripoli México</a>
+                                </li>
+                                <li>
+                                    <a class="text-slate-400 hover:text-white font-semibold block pb-2 text-sm"
+                                        href="https://enmice.mx/" target="_blank">EMNICE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-blueGray-300">
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-blueGray-500 font-semibold py-1">
+                        Copyright © <span id="get-current-year">2023</span> Betelgeuse made by
+                        <a href="https://github.com/V-ivan11"
+                            class="text-blueGray-500 hover:text-blueGray-800">iverduzco</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
